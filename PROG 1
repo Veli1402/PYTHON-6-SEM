@@ -1,0 +1,106 @@
+# Python program to
+# demonstrate numeric value
+
+a = 5
+print("Type of a: ", type(a))
+
+b = 5.0
+print("\nType of b: ", type(b))
+
+c = 2 + 4j
+print("\nType of c: ", type(c))
+
+#strings
+# Python Program for
+# Creation of String
+	
+# Creating a String
+# with single Quotes
+String1 = 'Welcome to Indore'
+print("String with the use of Single Quotes: ")
+print(String1)
+	
+# Creating a String
+# with double Quotes
+String1 = "I'm in indore "
+print("\nString with the use of Double Quotes: ")
+print(String1)
+print(type(String1))
+	
+# Creating a String
+# with triple Quotes
+String1 = '''I'm from Indore and I live in "Madhya Pradesh"'''
+print("\nString with the use of Triple Quotes: ")
+print(String1)
+print(type(String1))
+
+# Creating String with triple
+# Quotes allows multiple lines
+String1 = '''
+			For
+			Life'''
+print("\nCreating a multiline String: ")
+print(String1)
+
+#list
+# Python program to demonstrate
+# Creation of List
+	
+# Creating a List
+List = []
+print("Initial blank List: ")
+print(List)
+	
+# Creating a List with
+# the use of a String
+List = ['VeliSethiya']
+print("\nList with the use of String: ")
+print(List)
+	
+# Creating a List with
+# the use of multiple values
+List = ["Veli", "For", "Veli"]
+print("\nList containing multiple values: ")
+print(List[0])
+print(List[2])
+	
+# Creating a Multi-Dimensional List
+# (By Nesting a list inside a List)
+List = [['Veli', 'For'], ['Veli']]
+print("\nMulti-Dimensional List: ")
+print(List)
+
+#tuple
+# Python program to demonstrate
+# creation of Set
+	
+# Creating an empty tuple
+Tuple1 = ()
+print("Initial empty Tuple: ")
+print (Tuple1)
+	
+# Creating a Tuple with
+# the use of Strings
+Tuple1 = ('Veli', 'For')
+print("\nTuple with the use of String: ")
+print(Tuple1)
+	
+# Creating a Tuple with
+# the use of list
+list1 = [1, 2, 4, 5, 6]
+print("\nTuple using List: ")
+print(tuple(list1))
+
+# Creating a Tuple with the
+# use of built-in function
+Tuple1 = tuple('Veli')
+print("\nTuple with the use of function: ")
+print(Tuple1)
+
+# Creating a Tuple
+# with nested tuples
+Tuple1 = (0, 1, 2, 3)
+Tuple2 = ('python', 'veli')
+Tuple3 = (Tuple1, Tuple2)
+print("\nTuple with nested tuples: ")
+print(Tuple3)
